@@ -16,8 +16,13 @@ import {
   Recycle,
 } from "lucide-react";
 
+import NotFound from "./pages/NotFound";
+
 
 function App() {
+  if (window.location.pathname !== "/") {
+    return <NotFound />;
+  }
 
   /* =========================================
      SERVICES DATA
