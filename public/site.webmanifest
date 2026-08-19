@@ -1,0 +1,21 @@
+{
+    "name": "TLA Mobile Tire Service",
+    "short_name": "TLA Mobile Tire",
+    "description": "24/7 mobile tire service and roadside assistance serving Kansas City, KS, Kansas City, MO, and surrounding areas.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#111111",
+    "theme_color": "#111111",
+    "icons": [
+        {
+            "src": "/android-chrom-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
